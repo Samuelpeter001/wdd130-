@@ -1,1 +1,42 @@
-p 
+header {
+    background-color: black;
+    color: white;
+    display: grid;
+    text-align: center;
+}
+section, p {
+    margin: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+a {
+    display: flex;
+    text-decoration: none;
+}
+h1 {
+    display: grid;
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    display: grid;
+    text-align: center;
+}
+picture {
+    display: grid;
+    align-content: center;
+    justify-self: center;
+}
+section {
+    background-color: rgb(161, 179, 194);
+    margin-bottom: 20px;
+    max-width: 250px;
+    position: relative;
+    justify-self: center;
+    align-items: center;
+}
+h2 {
+    border-bottom:solid 0.5px;
+}

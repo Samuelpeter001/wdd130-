@@ -4,7 +4,11 @@
   --text-color: #333;
   --background-image: url("images/rafting.jpg");
 }
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   font-family: 'YourFontChoice', sans-serif;
   color: var(--text-color);
@@ -112,6 +116,8 @@ footer img {
 
 }
 .navigation{
+  position: relative;
+  bottom: 50%;
   display: flex;
   border: 3px solid #302525;
   box-sizing: content-box;
